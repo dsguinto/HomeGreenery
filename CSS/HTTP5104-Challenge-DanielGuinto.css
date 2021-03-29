@@ -1,0 +1,467 @@
+/******** Import Fonts ********/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+/******** Web Page Parameters ********/
+html{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color:#202228;
+    font-size: 100%;
+    line-height: 1.2;
+}
+
+.page{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
+/******** Header Parameters ********/
+#header{
+    background-color: #202228;
+    width: 100%;
+    padding: 0.5em 1em 0.5em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#site-name-1{
+    float: left;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+}
+
+#site-name-2{
+    float: right;
+    font-family: 'Lato', sans-serif;
+    color: #19c17e;
+}
+
+#main-menu{
+    display:flex;
+    justify-content: flex-end;
+    padding-top: 1em;
+}
+
+#main-menu ul{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#main-menu li{
+    margin: 1em;
+    display: inline-block;
+}
+
+a:link.headerlink , a:visited.headerlink{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover.headerlink, a:active.headerlink{
+    color: #19c17e;
+}
+
+a:link#signup , a:visited#signup{
+    background-color: #19c17e;
+    color: #202228;
+    text-decoration: none;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+}
+
+a:hover#signup, a:active#signup{
+    color: #fff;
+}
+
+
+/******** Banner Photo Parameters ********/
+#banner{
+    position: relative;
+}
+
+#banner-photo{
+    width: 100%;
+    height: 295px;
+    object-fit: cover;
+}
+
+#banner-photo-text{
+    position: absolute;
+    bottom: 2.5em;
+    padding-left: 1em;
+    letter-spacing: 0.1em;
+}
+
+#banner-photo-text-1{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 5.85em;
+    margin: 0;
+    text-shadow: 2px 2px 5px #202228;
+}
+
+
+/******** Section 1 Parameters ********/
+#section1{
+    padding: 1em 0;
+}
+
+#section1-left{
+    display:inline-block;
+    padding-left: 0.8em;
+    width: 46%;
+}
+
+#section1-right{
+    float: right;
+    width: 48%;
+}
+
+[id*="section1-right p"]{
+    font-size: small;
+}
+
+.section1-title{
+    font-family: 'Lato', sans-serif;
+    color: #397153;
+    text-align: center;
+}
+
+#potted-plant-img{
+    width: 24%;
+}
+
+#benefits-list{
+    float: right;
+    width: 70%;
+    padding: 0;
+}
+
+#benefits-list li{
+    list-style-type: square;
+}
+
+#benefits-list li span{
+    position: relative;
+    left: -0.2em;
+}
+
+a:link.section1-link , a:visited.section1-link{
+    color: #397153;
+}
+
+a:hover.section1-link, a:active.section1-link{
+    color: #01a765;
+    text-decoration: none;
+}
+
+#register-container{
+    text-align: center;
+    padding: 1.5em 0 2em 0;
+}
+
+#register-button{
+    background-color: #202228;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.7em;
+    padding: 0.4em 1em;
+    margin: 0 auto;
+}
+
+a:hover#register-button , a:active#register-button{
+    background-color: #19c17e;
+}
+
+
+/******** Section 2 Parameters ********/
+#section2{
+    padding: 1.5em 0 4em 0;
+    background-color: #defef1;
+}
+
+#section2-title{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.section2-subhead{
+    font-family: 'Lato', sans-serif;
+    color: #397153;
+    text-align: center;
+}
+
+a:link.section2-sublink, a:visited.section2-sublink{
+    color: #397153;
+    text-decoration: none;
+}
+
+a:hover.section2-sublink, a:active.section2-sublink{
+    color: #01a765;
+}
+
+#plant-resources{
+    text-align: center;
+    display: inline-block;
+    width: 34%;
+}
+
+#seeds{
+    text-align: center;
+    float:left;
+    width: 33%;
+}
+
+#growing-food{
+    text-align: center;
+    float: right;
+    width: 33%;
+}
+
+.button-container{
+    padding: 1.5em;
+}
+
+a:link.section2-button, a:visited.section2-button{
+    background-color:#202228;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    border-radius: 0.7em;
+    padding: 0.5em 0.7em;
+}
+
+a:hover.section2-button, a:active.section2-button{
+    background-color: #19c17e;
+}
+
+
+/******** Section 3 Parameters ********/
+#section3{
+    background-color: #19c17e;
+    text-align: center;
+    padding: 1.5em 0 4em 0;
+}
+
+#section3-title{
+    font-family: 'Lato', sans-serif; 
+}
+
+
+#email-label{
+    padding-right: 0.5em;
+}
+
+#email-input{
+    width: 32.5%;
+    height: 2.3em;
+    padding: 0 0.5em; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+#interests{
+    width: 40%;
+    border: 1px solid #fff;
+    margin: 1em auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#interests-legend{
+    text-align: left;
+}
+
+.checkbox-style{
+    padding-right: 5.2em;
+}
+
+#subscribe{
+    padding-top: 1em;
+}
+
+#subscribe-button{
+    background-color:#202228;
+    color: #fff;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: auto;
+    text-decoration: none;
+    border-radius: 0.7em;
+    padding: 0.6em 0.7em;
+}
+
+#subscribe-button:hover{
+    color: #19c17e;
+}
+
+
+/******** Footer Parameters ********/
+#footer{
+    background-color: #202228;
+    color: #fff;
+    padding: 1em 2em 0 2em;
+}
+
+#footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column{
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+#footer-row:after{
+    display: table;
+    clear: both;
+}
+
+.footertitle{
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+a:link.footerlink , a:visited.footerlink{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover.footerlink, a:active.footerlink{
+    color: #19c17e;
+}
+
+ul.footer{
+    padding: 0;
+    list-style: none;
+}
+
+#copyright{
+    display: inline-block;
+    border-top: 1px solid #19c17e;
+    padding: 0.5em 0;
+    width: 100%;
+    margin: 0;
+}
+
+/****** Back to Portfolio Button ********/
+#back {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    text-decoration: none;
+    background-color: grey;
+    color: white; 
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+
+  #back:hover {
+    opacity: 0.9;
+    background-color: black;
+  }
+
+
+@media all and (max-width:735px){
+
+    #potted-plant-img{
+        display: none;
+    }
+
+}
+
+
+@media all and (max-width:702px){
+
+    #banner-photo{
+        height: 350px;
+    }
+
+    #banner-photo-text {
+        bottom: 0.5em;
+    }
+
+}
+
+@media all and (max-width:565px){
+
+    .flexWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #plant-resources{
+        text-align: center;
+        display: block;
+        width: auto;
+    }
+    
+    #seeds{
+        text-align: center;
+        float: none;
+        width: auto
+    }
+    
+    #growing-food{
+        text-align: center;
+        float: none;
+        width: auto;
+    }
+
+}
+
+
+@media all and (max-width:540px){
+
+    #banner-photo{
+        height: 450px;
+    }
+
+}
+
+@media all and (max-width:375px){
+    #register-button{
+        font-size: small;
+    }
+
+    .checkbox-style {
+        padding-right: 1.5em;
+    }
+}
+
+@media all and (max-width:320px){
+    #banner-photo-text-1 {
+        font-size: 4.85em;
+    }
+
+    #banner-photo-text {
+        bottom: 3.5em;
+    }
+
+    .checkbox-style {
+        padding-right: 0.5em;
+    }
+}
